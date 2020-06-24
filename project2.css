@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navigation bar styling */
+
+#nav>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 600;
+  justify-content: center;
+}
+
+#nav li {
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.snapchat-logo {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* content */
+#Content {
+  background-color: yellow;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  padding: 35px;
+}
+
+#Content>div {
+  display: flex;
+  padding: 10px;
+}
+
+.bit-emoji {
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+#image1-text {
+  color: blue;
+  text-shadow: 0.2px 0.2px black;
+}
+
+#image2-text {
+  color: lightblue;
+  text-shadow: 0.2px 0.2px rgb(35, 207, 150);
+}
+
+button {
+  border-radius: 25px;
+  margin: 40px;
+  padding: 15px;
+  width: 14%;
+  border: none;
+}
+
+span {
+  background-color: black;
+  color: white;
+}
+
+/* policy   */
+.policy div {
+  display: flex;
+  flex-direction: start;
+}
+
+.policy li {
+  margin: 0 75px;
+  list-style: none;
+}
+
+.policy-title {
+  font-weight: 800;
+  margin-top: 20px;
+  padding: 20px 0px;
+  color: black;
+}
+
+.policy span {
+  color: grey;
+}
+
+a {
+  color: grey;
+}
+
+.policy select {
+  padding: 10px;
+  margin: 10px 75px;
+}
+
+#label {
+  margin-left: 75px;
+}
+
+/* footer */
+
+#footer {
+  background-color: black;
+  color: white;
+}
+
+#footer ul {
+  display: flex;
+  margin-left: 15%;
+}
+
+#footer li {
+  list-style: none;
+  padding: 10px;
+  font-weight: unset;
+}
